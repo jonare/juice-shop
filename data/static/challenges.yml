@@ -59,17 +59,6 @@
     - Heroku
     - Gitpod
 -
-  name: 'Bjoern''s Favorite Pet'
-  category: 'Broken Authentication'
-  tags:
-    - OSINT
-  description: 'Reset the password of Bjoern''s OWASP account via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.'
-  difficulty: 3
-  hint: 'He might have spoilered it on at least one occasion where a camera was running. Maybe elsewhere as well.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/broken-authentication.html#reset-the-password-of-bjoerns-owasp-account-via-the-forgot-password-mechanism'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
-  key: resetPasswordBjoernOwaspChallenge
--
   name: 'Blockchain Hype'
   category: 'Security through Obscurity'
   tags:
@@ -201,19 +190,6 @@
   hintUrl: 'https://pwning.owasp-juice.shop/part2/security-misconfiguration.html#use-a-deprecated-b2b-interface-that-was-not-properly-shut-down'
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet.html'
   key: deprecatedInterfaceChallenge
--
-  name: 'Easter Egg'
-  category: 'Broken Access Control'
-  tags:
-    - Shenanigans
-    - Contraption
-    - Good for Demos
-  description: 'Find the hidden <a href="http://en.wikipedia.org/wiki/Easter_egg_(media)" target="_blank">easter egg</a>.'
-  difficulty: 4
-  hint: 'If you solved one of the three file access challenges, you already know where to find the easter egg.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/broken-access-control.html#find-the-hidden-easter-egg'
-  mitigationUrl: ~
-  key: easterEggLevelOneChallenge
 -
   name: 'Email Leak'
   category: 'Sensitive Data Exposure'
@@ -396,17 +372,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html'
   key: continueCodeChallenge
 -
-  name: 'Leaked Access Logs'
-  category: 'Sensitive Data Exposure'
-  tags:
-    - OSINT
-  description: 'Dumpster dive the Internet for a leaked password and log in to the original user account it belongs to. (Creating a new account with the same password does not qualify as a solution.)'
-  difficulty: 5
-  hint: 'Once you have it, a technique called "Password Spraying" might prove useful.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/sensitive-data-exposure.html#dumpster-dive-the-internet-for-a-leaked-password-and-log-in-to-the-original-user-account-it-belongs-to'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html'
-  key: dlpPasswordSprayingChallenge
--
   name: 'Leaked Unsafe Product'
   category: 'Sensitive Data Exposure'
   tags:
@@ -441,17 +406,6 @@
   key: loginAdminChallenge
   tutorial:
     order: 5
--
-  name: 'Login Amy'
-  category: 'Sensitive Data Exposure'
-  tags:
-    - OSINT
-  description: 'Log in with Amy''s original user credentials. (This could take 93.83 billion trillion trillion centuries to brute force, but luckily she did not read the "One Important Final Note")'
-  difficulty: 3
-  hint: 'This challenge will make you go after a needle in a haystack.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/sensitive-data-exposure.html#log-in-with-amys-original-user-credentials'
-  mitigationUrl: ~
-  key: loginAmyChallenge
 -
   name: 'Login Bender'
   category: 'Injection'
@@ -489,18 +443,6 @@
   key: loginJimChallenge
   tutorial:
     order: 9
--
-  name: 'Login MC SafeSearch'
-  category: 'Sensitive Data Exposure'
-  tags:
-    - Shenanigans
-    - OSINT
-  description: 'Log in with MC SafeSearch''s original user credentials without applying SQL Injection or any other bypass.'
-  difficulty: 2
-  hint: 'You should listen to MC''s hit song "Protect Ya Passwordz".'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/sensitive-data-exposure.html#log-in-with-mc-safesearchs-original-user-credentials'
-  mitigationUrl: ~
-  key: loginRapperChallenge
 -
   name: 'Login Support Team'
   category: 'Security Misconfiguration'
@@ -543,18 +485,6 @@
   hintUrl: 'https://pwning.owasp-juice.shop/part2/broken-anti-automation.html#like-any-review-at-least-three-times-as-the-same-user'
   mitigationUrl: ~
   key: timingAttackChallenge
--
-  name: 'Nested Easter Egg'
-  category: 'Cryptographic Issues'
-  tags:
-    - Shenanigans
-    - Good for Demos
-  description: 'Apply some advanced cryptanalysis to find <i>the real</i> easter egg.'
-  difficulty: 4
-  hint: 'You might have to peel through several layers of tough-as-nails encryption for this challenge.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/cryptographic-issues.html#apply-some-advanced-cryptanalysis-to-find-the-real-easter-egg'
-  mitigationUrl: ~
-  key: easterEggLevelTwoChallenge
 -
   name: 'NoSQL DoS'
   category: 'Injection'
@@ -640,33 +570,6 @@
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html'
   key: premiumPaywallChallenge
 -
-  name: 'Privacy Policy'
-  category: 'Miscellaneous'
-  tags:
-    - Good Practice
-    - Tutorial
-    - Good for Demos
-  description: 'Read our privacy policy.'
-  difficulty: 1
-  hint: 'We won''t even ask you to confirm that you did. Just read it. Please. Pretty please.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/miscellaneous.html#read-our-privacy-policy'
-  mitigationUrl: ~
-  key: privacyPolicyChallenge
-  tutorial:
-    order: 4
--
-  name: 'Privacy Policy Inspection'
-  category: 'Security through Obscurity'
-  tags:
-    - Shenanigans
-    - Good for Demos
-  description: 'Prove that you actually read our privacy policy.'
-  difficulty: 3
-  hint: 'Only by visiting a special URL you can confirm that you read it carefully.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/security-through-obscurity.html#prove-that-you-actually-read-our-privacy-policy'
-  mitigationUrl: ~
-  key: privacyPolicyProofChallenge
--
   name: 'Product Tampering'
   category: 'Broken Access Control'
   description: 'Change the <code>href</code> of the link within the <a href="/#/search?q=OWASP SSL Advanced Forensic Tool (O-Saft)">OWASP SSL Advanced Forensic Tool (O-Saft)</a> product description into <i>https://owasp.slack.com</i>.'
@@ -700,51 +603,6 @@
   hintUrl: 'https://pwning.owasp-juice.shop/part2/improper-input-validation.html#follow-the-dry-principle-while-registering-a-user'
   mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html'
   key: passwordRepeatChallenge
--
-  name: 'Reset Bender''s Password'
-  category: 'Broken Authentication'
-  tags:
-    - OSINT
-  description: 'Reset Bender''s password via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.'
-  difficulty: 4
-  hint: 'Not as trivial as Jim''s but still not too difficult with some "Futurama" background knowledge.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/broken-authentication.html#reset-benders-password-via-the-forgot-password-mechanism'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
-  key: resetPasswordBenderChallenge
--
-  name: 'Reset Bjoern''s Password'
-  category: 'Broken Authentication'
-  tags:
-    - OSINT
-  description: 'Reset the password of Bjoern''s internal account via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.'
-  difficulty: 5
-  hint: 'Nothing a little bit of Facebook stalking couldn''t reveal. Might involve a historical twist.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/broken-authentication.html#reset-the-password-of-bjoerns-internal-account-via-the-forgot-password-mechanism'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
-  key: resetPasswordBjoernChallenge
--
-  name: 'Reset Jim''s Password'
-  category: 'Broken Authentication'
-  tags:
-    - OSINT
-  description: 'Reset Jim''s password via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.'
-  difficulty: 3
-  hint: 'It''s hard for celebrities to pick a security question from a hard-coded list where the answer is not publicly exposed.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/broken-authentication.html#reset-jims-password-via-the-forgot-password-mechanism'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
-  key: resetPasswordJimChallenge
--
-  name: 'Reset Morty''s Password'
-  category: 'Broken Anti Automation'
-  tags:
-    - OSINT
-    - Brute Force
-  description: 'Reset Morty''s password via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>his obfuscated answer</i> to his security question.'
-  difficulty: 5
-  hint: 'Find a way to bypass the rate limiting and brute force the obfuscated answer to Morty''s security question.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/broken-anti-automation.html#reset-mortys-password-via-the-forgot-password-mechanism'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html'
-  key: resetPasswordMortyChallenge
 -
   name: 'Retrieve Blueprint'
   category: 'Sensitive Data Exposure'
@@ -822,17 +680,6 @@
     - Docker
     - Heroku
     - Gitpod
--
-  name: 'Steganography'
-  category: 'Security through Obscurity'
-  tags:
-    - Shenanigans
-  description: '<a href="/#/contact">Rat out</a> a notorious character hiding in plain sight in the shop. (Mention the exact name of the character)'
-  difficulty: 4
-  hint: 'No matter how good your eyes are, you will need tool assistance for this challenge.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/security-through-obscurity.html#rat-out-a-notorious-character-hiding-in-plain-sight-in-the-shop'
-  mitigationUrl: ~
-  key: hiddenImageChallenge
 -
   name: 'Successful RCE DoS'
   category: 'Insecure Deserialization'
@@ -934,17 +781,6 @@
   tutorial:
     order: 7
 -
-  name: 'Vulnerable Library'
-  category: 'Vulnerable Components'
-  tags:
-    - OSINT
-  description: '<a href="/#/contact">Inform the shop</a> about a vulnerable library it is using. (Mention the exact library name and version in your comment)'
-  difficulty: 4
-  hint: 'Report one of two possible answers via the "Customer Feedback" form. Do not forget to submit the library''s version as well.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/vulnerable-components.html#inform-the-shop-about-a-vulnerable-library-it-is-using'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html'
-  key: knownVulnerableComponentChallenge
--
   name: 'Weird Crypto'
   category: 'Cryptographic Issues'
   description: '<a href="/#/contact">Inform the shop</a> about an algorithm or library it should definitely not use the way it does.'
@@ -1004,17 +840,6 @@
   mitigationUrl: ~
   key: zeroStarsChallenge
 -
-  name: 'Missing Encoding'
-  category: 'Improper Input Validation'
-  tags:
-    - Shenanigans
-  description: 'Retrieve the photo of Bjoern''s cat in "melee combat-mode".'
-  difficulty: 1
-  hint: 'Check the Photo Wall for an image that could not be loaded correctly.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/improper-input-validation.html#retrieve-the-photo-of-bjoerns-cat-in-melee-combat-mode'
-  mitigationUrl: ~
-  key: missingEncodingChallenge
--
   name: 'Cross-Site Imaging'
   category: 'Security Misconfiguration'
   tags:
@@ -1069,39 +894,6 @@
   tutorial:
     order: 3
 -
-  name: 'Reset Uvogin''s Password'
-  category: 'Sensitive Data Exposure'
-  tags:
-    - OSINT
-  description: 'Reset Uvogin''s password via the <a href="/#/forgot-password">Forgot Password</a> mechanism with <i>the original answer</i> to his security question.'
-  difficulty: 4
-  hint: 'You might have to do some OSINT on his social media personas to find out his honest answer to the security question.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/sensitive-data-exposure.html#reset-uvogins-password-via-the-forgot-password-mechanism'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
-  key: resetPasswordUvoginChallenge
--
-  name: 'Meta Geo Stalking'
-  category: 'Sensitive Data Exposure'
-  tags:
-    - OSINT
-  description: 'Determine the answer to John''s security question by looking at an upload of him to the Photo Wall and use it to reset his password via the <a href="/#/forgot-password">Forgot Password</a> mechanism.'
-  difficulty: 2
-  hint: 'Take a look at the meta data of the corresponding photo.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/sensitive-data-exposure.html#determine-the-answer-to-johns-security-question'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
-  key: geoStalkingMetaChallenge
--
-  name: 'Visual Geo Stalking'
-  category: 'Sensitive Data Exposure'
-  tags:
-    - OSINT
-  description: 'Determine the answer to Emma''s security question by looking at an upload of her to the Photo Wall and use it to reset her password via the <a href="/#/forgot-password">Forgot Password</a> mechanism.'
-  difficulty: 2
-  hint: 'Take a look at the details in the photo to determine the location of where it was taken.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/sensitive-data-exposure.html#determine-the-answer-to-emmas-security-question'
-  mitigationUrl: 'https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet.html'
-  key: geoStalkingVisualChallenge
--
   name: 'Kill Chatbot'
   category: 'Vulnerable Components'
   tags:
@@ -1149,12 +941,3 @@
     - Docker
     - Heroku
     - Gitpod
--
-  name: 'Mass Dispel'
-  category: 'Miscellaneous'
-  description: 'Close multiple "Challenge solved"-notifications in one go.'
-  difficulty: 1
-  hint: 'Either check the official documentation or inspect a notification UI element directly.'
-  hintUrl: 'https://pwning.owasp-juice.shop/part2/score-board.html#close-multiple-challenge-solved-notifications-in-one-go'
-  mitigationUrl: ~
-  key: closeNotificationsChallenge
